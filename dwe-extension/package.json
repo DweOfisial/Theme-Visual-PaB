@@ -1,0 +1,29 @@
+{
+    "name": "dwe-extension",
+    "displayName": "dwe-extension",
+    "description": "dark",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "PurpleAndBlack",
+                "uiTheme": "vs-dark",
+                "path": "./themes/PurpleAndBlack-color-theme.json"
+            }
+        ]
+    },
+    "author": {
+        "name": "Dwe"
+    },
+    "repository": {
+        "url": "https://github.com/DweOfisial/Theme-Visual-PaB",
+        "type": "git"
+    },
+    "publisher": "PaB-Theme"
+}
